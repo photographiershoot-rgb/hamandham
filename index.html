@@ -6,7 +6,16 @@
 <meta content="#161312" name="theme-color"/>
 <meta content="Ham &amp; Ham — أشهى السندويشات والبيتزا والبرغر والطاكوس. شوف المنيو وطلب عبر واتساب." name="description"/>
 <title>Ham &amp; Ham | المنيو والطلب</title>
-<style>
+<style> 
+  .cloud-banner.ready {
+    display: none !important;
+  }
+
+  body.admin-on .cloud-banner.ready {
+    display: block !important;
+  }
+
+</style>
 :root{--accent:#ff8b24;--red:#f04432;--dark:#161312;--dark2:#24201c;--paper:#faf8f4;--cream:#fff;--line:#e9e1d7;--muted:#776f68;--success:#20865a;--shadow:0 15px 50px #22120913}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;color:#251d18;background:var(--paper);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;-webkit-font-smoothing:antialiased}body.no-scroll{overflow:hidden}button,input,textarea,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.55;cursor:not-allowed}a{color:inherit;text-decoration:none}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #fdaa4a;outline-offset:3px}img{max-width:100%}.shell{width:min(1200px,calc(100% - 40px));margin-inline:auto}
 .topbar{background:rgba(22,19,18,.97);color:white;position:sticky;top:0;z-index:30;box-shadow:0 8px 26px #17110c1c;backdrop-filter:blur(15px)}.header-inner{min-height:79px;display:flex;align-items:center;gap:22px;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;min-width:0}.brand-mark{width:53px;height:53px;border-radius:50%;background:white;padding:3px;object-fit:contain;border:2px solid #fff;flex-shrink:0}.brand strong{font-size:21px;letter-spacing:.2px;display:block}.brand span{font-size:10px;letter-spacing:2.5px;color:#d9c2a9;display:block;margin-top:3px}.nav-links{display:flex;gap:25px;align-items:center;color:#e3d7cc;font-size:13px;font-weight:700}.nav-links a:hover{color:var(--accent)}.header-actions{display:flex;align-items:center;gap:9px}.icon-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#ffffff13;color:white;border:1px solid #ffffff25;border-radius:13px;height:45px;padding:0 14px;font-weight:750;white-space:nowrap}.icon-button:hover{background:#ffffff25}.cart-button{background:var(--accent);color:#1d130a;border-color:var(--accent)}.cart-button:hover{background:#ffc17b}.bubble{display:grid;place-items:center;min-width:22px;height:22px;background:#1d150e;color:#fff;border-radius:100px;font-size:11px;padding:0 5px}.admin-button{width:46px;padding:0;font-size:20px}
